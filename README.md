@@ -3,7 +3,8 @@ getClosestNumberJs
 
 Recursive function that takes in an array of numbers and finds the one closest to the entered number
 
-`function getClosestValue(number_array, value){
+```
+function getClosestValue(number_array, value){
 	if(number_array.length > 1){
 		var left = number_array.slice(0, Math.ceil(number_array.length / 2));
 		var right = number_array.slice(Math.ceil(number_array.length / 2), number_array.length);
@@ -30,4 +31,5 @@ Recursive function that takes in an array of numbers and finds the one closest t
 	else{
 		return null;
 	}
-}`
+}
+```
